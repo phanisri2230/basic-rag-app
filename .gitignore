@@ -1,0 +1,27 @@
+# Environment variables & secrets
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Scratch directory & temporary files
+scratch/
+.chroma/
+*.log
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
